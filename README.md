@@ -1,8 +1,8 @@
 # TA_scripts
-* **create_roster.h**: Creates a roster based on email ID, lastname, and name of students.
-* **process_lab.sh**: Extracts lab submission for each student and stores it under **extracted** directory.
-* **extract_reports.sh**: Extracts the report file for each student and stores it under **reports** directory. 
-* **grades_lab.sh**: Publishes lab grades in grades directory. 
-* **grades_midterm.sh**: Publishes midterm grades in grades directory. 
-* **grades_final.sh** : Publishes final grades in grades directory. 
+* **create_roster.h**: This script creates a roster based on email ID, lastname, and name of students.
+* **process_lab.sh**: This script extracts lab submission for each student and stores it under **extracted** directory.
+* **extract_reports.sh**: This script extracts the report file for each student and stores it under **reports** directory. 
+* **grades_lab.sh**: This script publishes lab grades in grades directory. 
+* **grades_midterm.sh**: This script publishes midterm grades in grades directory. 
+* **grades_final.sh** : This script publishes final grades in grades directory. 
 
