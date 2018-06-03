@@ -27,13 +27,13 @@ do
 
 	cat tfile | gawk 'BEGIN {FS = "\t"} ; {
 
-		printf "\nProblem 1 graded by Varshali (kumar261@purdue.edu)\n"
+		printf "\nProblem 1 graded by X (x@purdue.edu)\n"
 
-		printf "\nProblem 2 graded by Adib (arastega@purdue.edu)\n"
+		printf "\nProblem 2 graded by Y (y@purdue.edu)\n"
 
-		printf "\nProblem 3 graded by Adib (arastega@purdue.edu)\n"
+		printf "\nProblem 3 graded by Z (z@purdue.edu)\n"
 
-		printf "\nBonus graded by Varshali (kumar261@purdue.edu)\n"
+		printf "\nBonus graded by x (x@purdue.edu)\n"
 
 		printf "\nTotal: %d/100\n", $4
 

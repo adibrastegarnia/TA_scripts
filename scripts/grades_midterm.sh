@@ -1,7 +1,6 @@
 #!/bin/bash
 
 grades_file="final_grades.tsv"
-grades_dir="/homes/rkarandi/TA/summer17/cs240/grades/tmp_grades/"
 #grades_dir="/u/data/u3/park/pub/cs240/grades/"
 
 i=0
@@ -27,13 +26,13 @@ do
 
 	cat tfile | gawk 'BEGIN {FS = "\t"} ; {
 
-		printf "\nProblem 1 graded by Rajas (rkarandi@purdue.edu)\n"
+		printf "\nProblem 1 graded by X (x@purdue.edu)\n"
 
-		printf "\nProblem 2 graded by Adib (arastega@purdue.edu)\n"
+		printf "\nProblem 2 graded by Y (y@purdue.edu)\n"
 
-		printf "\nProblem 3 graded by Varshali (kumar261@purdue.edu)\n"
+		printf "\nProblem 3 graded by Z (z@purdue.edu)\n"
 
-		printf "\nBonus graded by Rajas (rkarandi@purdue.edu)\n"
+		printf "\nBonus graded by X (x@purdue.edu)\n"
 
 		printf "\nTotal: %d/100\n", $4
 
